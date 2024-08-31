@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./Images/logo.jpeg" alt="Kerala Tourism Logo" width="50" height="50" class="d-inline-block align-text-top">
+                Kerala Tourism
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Signup</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Select Districts
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Thiruvananthapuram</a></li>
+                            <li><a class="dropdown-item" href="#">Kollam</a></li>
+                            <li><a class="dropdown-item" href="#">Pathanamthitta</a></li>
+                            <li><a class="dropdown-item" href="#">Alappuzha</a></li>
+                            <li><a class="dropdown-item" href="#">Kottayam</a></li>
+                            <li><a class="dropdown-item" href="#">Idukki</a></li>
+                            <li><a class="dropdown-item" href="#">Ernakulam</a></li>
+                            <li><a class="dropdown-item" href="#">Thrissur</a></li>
+                            <li><a class="dropdown-item" href="#">Palakkad</a></li>
+                            <li><a class="dropdown-item" href="#">Malappuram</a></li>
+                            <li><a class="dropdown-item" href="#">Kozhikode</a></li>
+                            <li><a class="dropdown-item" href="#">Wayanad</a></li>
+                            <li><a class="dropdown-item" href="#">Kannur</a></li>
+                            <li><a class="dropdown-item" href="#">Kasaragod</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section text-center text-white d-flex align-items-center justify-content-center" style="background-image: url('./Images/kerala-hero.jpg');">
+        <div class="container">
+            <h1 class="display-3"> Explore God's Own Country</h1>
+            <p class="lead">Discover the beauty and culture of Kerala</p>
+            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            <a href="#" class="btn btn-outline-light btn-lg ms-2">Contact Us</a>
+        </div>
+    </section>
+
+    <section class="carousel-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Top Destinations</h2>
+            <div id="destinationCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Images/alleppey.jpg" class="d-block w-100" alt="Alleppey">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Alleppey</h5>
+                            <p>The Venice of the East</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/kochi.jpg" class="d-block w-100" alt="Kochi">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kochi</h5>
+                            <p>Queen of the Arabian Sea</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/munnar.jpg" class="d-block w-100" alt="Munnar">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Munnar</h5>
+                            <p>Heaven of Green Hills and Tea Plantations</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#destinationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#destinationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="./Images/keralamap.jpg" class="img-fluid rounded" alt="Kerala Map">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Kerala</h2>
+                    <p>Kerala, located on the southwestern coast of India, is a state renowned for its lush landscapes, backwaters, and rich cultural heritage. Often referred to as "God's Own Country," Kerala is bordered by the Arabian Sea to the west and the Western Ghats to the east, contributing to its diverse topography and climate. The state is known for its high literacy rate, progressive social indicators, and vibrant traditions in dance, music, and cuisine.</p>
+                    <a href="#" class="btn btn-outline-dark">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="places-section py-5">
+      <div class="container">
+          <h2 class="text-center mb-4">Popular Places</h2>
+          <div class="row text-center">
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Thiruvananthapuram</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Kollam</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Pathanamthitta</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Alappuzha</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Kottayam</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Idukki</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Ernakulam</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Thrissur</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Palakkad</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Malappuram</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Kozhikode</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Wayanad</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Kannur</a>
+                  </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                  <div class="place-box p-3 border">
+                      <a href="#" class="text-dark text-decoration-none">Kasaragod</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+    <section class="contact-section py-5 bg-light">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-box p-5 bg-white shadow rounded">
+                    <h2 class="text-center mb-4">Enter Your Details</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" required pattern="^[0-9]{10}$" title="Phone number must be 10 digits long">
+                            <div class="invalid-feedback">
+                                Please enter a valid 10-digit phone number.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="dob" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="dob" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Gender</label>
+                            <div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                                    <label class="form-check-label" for="male">Male</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                    <label class="form-check-label" for="female">Female</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <p class="mb-0">© 2024 Kerala Tourism. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
